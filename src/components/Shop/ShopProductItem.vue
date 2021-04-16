@@ -19,18 +19,7 @@
 
 <script>
 export default {
-  data() {
-    return {
-      product: {
-        img:
-          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRS7ekQ3gBH4qgpA_rFjIi5BRHelutd--Q0xhf76XENxHC_gpsIZA",
-        title: "MacBook",
-        description:
-          "Quand nous avons créé le MacBook, nous avons tout simplement tenté l’impossible. C’est le plus fin et le plus léger de nos ordinateurs portables",
-        price: "1500 €",
-      },
-    };
-  },
+  props: ["product"],
 };
 </script>
 

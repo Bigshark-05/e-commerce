@@ -11,7 +11,7 @@
       <p>{{ product.description }}</p>
     </div>
     <div>
-      <span>{{ product.price }}</span>
+      <span>{{ product.price }} €</span>
       <button class="btn btn-primary btn-sm float-right">Commander</button>
     </div>
   </div>
